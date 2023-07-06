@@ -1,0 +1,35 @@
+.cuerpo{
+    background-color: rgb(236, 234, 234);
+    min-height: 100vh;
+    margin: 0 auto;
+}
+h1{
+    display: inline-block;
+}
+
+.contenedor_titulo{
+    width: 100%;
+    height: 100px;
+    display: flexbox;
+    justify-content: left;
+    align-items: center;
+}
+.contenedor_feed{
+    width: 800px; 
+    height: auto;
+    margin: 50px auto;
+    padding: 2rem;
+    background-color: white;
+}
+#current_date{
+    float: right;
+    margin-top: -31px
+}
+.img_feed{
+    height: 180px;
+    width: 200px;
+}
+.publicacion{
+    width:min-content;
+}
+
